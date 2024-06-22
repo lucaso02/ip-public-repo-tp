@@ -10,7 +10,7 @@ def fromRequestIntoNASACard(object):
                         image_url=object['links'][0]['href'], 
                         date=object['data'][0]['date_created'][:10]
                 )
-
+ 
     return nasa_card
 
 
